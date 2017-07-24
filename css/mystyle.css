@@ -1,0 +1,100 @@
+
+.myNavSettings {
+    background-color: #bee5f4;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* center menu button on mobile*/
+.myNavToggle {
+    float: none;
+    margin: auto;
+}
+
+.navbar-toggle:hover {
+    background-color: #fff !important;
+}
+
+h1{
+    font-family: 'Poiret One', cursive;
+    font-size: 7.3vw;
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    h1{
+        font-size: 5.3vw;
+        margin-bottom: 40px;
+    }   
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    h1{
+        font-size: 5.3vw;
+        margin-bottom: 30px;
+    }   
+}
+@media (min-width: 992px) {
+    h1{
+        font-size: 5.3vw;
+        margin-bottom: 40px;
+    }
+}
+
+/* set width to same as images to remove vertical bars on each side of carousel*/
+#myCarousel {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+/*remove negative padding that is causing horiontal scroll*/
+.myRow {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.gameBoxOne {
+    border: 2px solid #67D38F;
+    background-color: #BEF7D3;
+    margin: 2em;
+    padding: 1em;
+    
+}
+
+.gameBoxTwo {
+    border: 2px solid #7180CD;
+    background-color: #C4CCF6;
+    margin: 2em;
+    padding: 1em;
+    
+}
+
+.photo-credit {
+    font-size: 12px;
+    text-align: center;
+    margin: 20px;  
+}
+
+/*font-family: 'Oswald', sans-serif;
+font-family: 'Poiret One', cursive;
+font-family: 'Pompiere', cursive;
+font-family: 'Reem Kufi', sans-serif;
+font-family: 'Shadows Into Light', cursive;
+font-family: 'Shadows Into Light Two', cursive;
+#87CEEB
+color: #166483;
+https://www.favrify.com/new-york-skyline/
+http://skyscraperpage.com/
+http://skyscraper.org/
+/* Extra Small Devices, .visible-xs-* */
+@media (max-width: 767px) {}
+
+/* Small Devices, .visible-sm-* */
+@media (min-width: 768px) and (max-width: 991px) {}
+
+/* Medium Devices, .visible-md-* */
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+/* Large Devices, .visible-lg-* */
+@media (min-width: 1200px) {}
+*/
