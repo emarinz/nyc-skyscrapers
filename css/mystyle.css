@@ -11,35 +11,18 @@
     margin: auto;
 }
 
-.navbar-toggle:hover {
+
+.navbar-toggle:focus,.navbar-toggle:hover {
     background-color: #fff !important;
 }
 
 h1{
     font-family: 'Poiret One', cursive;
-    font-size: 7.3vw;
+    font-size: 54px;
     margin-top: 80px;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 }
 
-@media (min-width: 768px) and (max-width: 991px) {
-    h1{
-        font-size: 5.3vw;
-        margin-bottom: 40px;
-    }   
-}
-@media (min-width: 768px) and (max-width: 991px) {
-    h1{
-        font-size: 5.3vw;
-        margin-bottom: 30px;
-    }   
-}
-@media (min-width: 992px) {
-    h1{
-        font-size: 5.3vw;
-        margin-bottom: 40px;
-    }
-}
 
 /* set width to same as images to remove vertical bars on each side of carousel*/
 #myCarousel {
@@ -47,12 +30,39 @@ h1{
     margin: 0 auto;
 }
 
-/*remove negative padding that is causing horiontal scroll*/
+/* and also remove background image to remove gradient*/
+.carousel-control.right, .carousel-control.left {
+  background-image: none ;
+}
+
+/*remove negative padding that is causing horizontal scroll*/
 .myRow {
     margin-right: 0;
     margin-left: 0;
 }
 
+/*set background color to table head*/
+thead {
+    background-color: #e6e6e6;
+}
+
+
+/*overwrite bootstrap default background color on table stripe and switch to even rows*/
+.table-striped > tbody > tr:nth-of-type(even) {
+  background-color: #f2f2f2;
+}
+
+.contructionImages {
+   
+}
+ 
+ 
+.tabIntro{
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: 200;
+}
+    
 .gameBoxOne {
     border: 2px solid #67D38F;
     background-color: #BEF7D3;
@@ -66,14 +76,57 @@ h1{
     background-color: #C4CCF6;
     margin: 2em;
     padding: 1em;
-    
+}
+
+.gameForm  {
+    font-size: 16px;
+}
+
+/* settings for movie answer */
+#movieAnswer {
+  margin-top: 10px;
+  margin-bottom: 10px; 
 }
 
 .photo-credit {
     font-size: 12px;
     text-align: center;
-    margin: 20px;  
+    margin: 20px; 
 }
+
+/* Extra Small Devices*/
+@media only screen and (max-width: 500px) {
+    h1{
+        font-size: 30px;
+        margin-bottom: 15px;
+    }
+    h3 {font-size: 18px;
+    }
+}
+
+/* Small Devices*/
+@media only screen and (min-width: 501px) and (max-width: 767px) {
+    h1{
+        font-size: 38px;
+        margin-bottom: 20px;
+    }
+    h3 {font-size: 22px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    h1{
+        font-size: 48px;
+        margin-bottom: 20px;
+    }   
+}
+@media (min-width: 768px) and (max-width: 991px) {
+       
+}
+@media (min-width: 992px) {
+
+}
+
 
 /*font-family: 'Oswald', sans-serif;
 font-family: 'Poiret One', cursive;
@@ -86,15 +139,15 @@ color: #166483;
 https://www.favrify.com/new-york-skyline/
 http://skyscraperpage.com/
 http://skyscraper.org/
-/* Extra Small Devices, .visible-xs-* */
+/* Extra Small Devices, .visible-xs-* 
 @media (max-width: 767px) {}
 
-/* Small Devices, .visible-sm-* */
+/* Small Devices, .visible-sm-* 
 @media (min-width: 768px) and (max-width: 991px) {}
 
-/* Medium Devices, .visible-md-* */
+/* Medium Devices, .visible-md-*
 @media (min-width: 992px) and (max-width: 1199px) {}
 
-/* Large Devices, .visible-lg-* */
+/* Large Devices, .visible-lg-* 
 @media (min-width: 1200px) {}
 */
