@@ -53,43 +53,73 @@ thead {
 }
 
 .contructionImages {
-   
+    margin-bottom: 10px;
 }
  
+.photo-caption {
+     font-size: 16px !important;
+     padding-right: 40px;
+     padding-left: 40px;
+ }
  
+.hine-photo-credit {
+    font-size: 12px !important;
+    font-weight: 400 !important;
+    max-width: 512px;
+} 
+
+.tabMargins {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
 .tabIntro{
     margin-top: 15px;
     font-size: 18px;
     font-weight: 200;
 }
-    
+
+
+/* start settings for game */
+.gameBoxOne, .gameBoxTwo {
+    margin: 2em;
+    padding: 1em;
+}
+
 .gameBoxOne {
     border: 2px solid #67D38F;
     background-color: #BEF7D3;
-    margin: 2em;
-    padding: 1em;
-    
 }
 
 .gameBoxTwo {
     border: 2px solid #7180CD;
     background-color: #C4CCF6;
-    margin: 2em;
-    padding: 1em;
 }
 
 .gameForm  {
     font-size: 16px;
 }
 
-/* settings for movie answer */
-#movieAnswer {
+.gameQuestion {
+    margin-top: 8px;
+}
+
+/* create more spacing on radio button lines and to get both game boxes to have equal height on large screens*/
+.radio label {
+    margin-bottom: 2.5px;
+}
+
+/* settings for height and movie answer */
+#movieAnswer, #heightAnswer {
   margin-top: 10px;
   margin-bottom: 10px; 
 }
+/* end settings for game */
 
+
+/* settings for photo credits on all pages */
 .photo-credit {
-    font-size: 12px;
+    font-size: 12px; 
     text-align: center;
     margin: 20px; 
 }
@@ -102,6 +132,12 @@ thead {
     }
     h3 {font-size: 18px;
     }
+    h2 {font-size: 27px;
+    }
+    .jumbotron {padding-top: 10px;
+    }
+    .jumbotron p {font-size: 19px;
+    }
 }
 
 /* Small Devices*/
@@ -112,42 +148,14 @@ thead {
     }
     h3 {font-size: 22px;
     }
+    
+    .jumbotron {padding-top: 15px;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
     h1{
         font-size: 48px;
         margin-bottom: 20px;
-    }   
+    }
 }
-@media (min-width: 768px) and (max-width: 991px) {
-       
-}
-@media (min-width: 992px) {
-
-}
-
-
-/*font-family: 'Oswald', sans-serif;
-font-family: 'Poiret One', cursive;
-font-family: 'Pompiere', cursive;
-font-family: 'Reem Kufi', sans-serif;
-font-family: 'Shadows Into Light', cursive;
-font-family: 'Shadows Into Light Two', cursive;
-#87CEEB
-color: #166483;
-https://www.favrify.com/new-york-skyline/
-http://skyscraperpage.com/
-http://skyscraper.org/
-/* Extra Small Devices, .visible-xs-* 
-@media (max-width: 767px) {}
-
-/* Small Devices, .visible-sm-* 
-@media (min-width: 768px) and (max-width: 991px) {}
-
-/* Medium Devices, .visible-md-*
-@media (min-width: 992px) and (max-width: 1199px) {}
-
-/* Large Devices, .visible-lg-* 
-@media (min-width: 1200px) {}
-*/
